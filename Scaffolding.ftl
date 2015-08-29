@@ -16,8 +16,7 @@
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-
-  <link rel="stylesheet" href="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/css/site.css">
+  <link rel="stylesheet" href="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/css/site-v3.css">
   <link rel="stylesheet" href="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/css/prettify.css">
   <link href="http://www.unhcr.org/favicon.ico" rel="icon" type="image/x-icon">
   
@@ -73,7 +72,7 @@
 <script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/underscore.min.js"></script>
 <script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/backbone.min.js"></script>
 <script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/prettify.min.js"></script>
-<script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/bootstrap-222.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/index/index.js"></script>
 
 <script type="text/javascript">		
