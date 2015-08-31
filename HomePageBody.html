@@ -1,151 +1,179 @@
 
-    <div class="jumbotron" style="position: relative; top: -60px">
-
-
-        <div class="container-fluid">
-            <div id="content" class="clearfix row-fluid">
-
-
-            <div id="main" class="span12 clearfix" role="main">
-              <br>
-              <div class="row-fluid">
-                <div class="span8">
-                  <h1>Syrian Refugee Response Tracking</h1>
-                  <p class="lead">A web-based platform for better centralisation, mapping & analysis of Humanitarian Activities in Jordan</p>
+<div class="jumbotron" style="position: relative; top: -60px">
+    <div class="container-fluid">
+        <div id="content" class="clearfix row">
+            <div id="main" class="col-md-12 clearfix" role="main">
+                <br>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1>Syrian Refugee Response Tracking</h1>
+                        <p class="lead">A web-based platform for better centralisation, mapping & analysis of Humanitarian Activities in Jordan</p>
+                    </div>
+                    <div class="col-md-4">
+                        <form class="form-signin" id="loginForm" action="http://www.syrianrefugeeresponse.org/login" method="POST">
+                            <h3 class="form-signin-heading">Login</h3>
+                            <input type="text" name="email" id="emailInput" class="form-control" placeholder="E-mail">
+                            <input type="password" name="password" id="passwordInput" class="form-control" placeholder="Password">
+                            <div class="alert alert-error hide" id="loginAlert">
+                                Your details are not correct. Thanks to check your email and password
+                            </div>
+                            <button class="btn btn-info btn-primary" type="submit" id="loginButton">Login</button>
+                            <img src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/img/ajax-loader-spinner.gif" width="16" height="16" class="hide" id="loginSpinner">
+                            <div class="login-problem"><a href="loginProblem">Forgot your password?</a></div>
+                        </form>
+                    </div>
                 </div>
-                <div class="span4">
-                    <form class="form-signin" id="loginForm" action="http://www.syrianrefugeeresponse.org/login" method="POST">
-                        <h3 class="form-signin-heading">Login</h3>
-                        <input type="text" name="email" id="emailInput" class="input-block-level" placeholder="E-mail">
-                        <input type="password" name="password" id="passwordInput" class="input-block-level" placeholder="Password">
-                        <div class="alert alert-error hide" id="loginAlert">
-                            Your details are not correct. Thanks to check your email and password
-                        </div>
-                        <button class="btn btn-info btn-primary btn-large" type="submit" id="loginButton">Login</button>
-                        <img src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/img/ajax-loader-spinner.gif" width="16" height="16" class="hide" id="loginSpinner">
-                        <div class="login-problem"><a href="loginProblem">Forgot your password?</a></div>
-                    </form>
-                </div>
-              </div>
             </div>
 
-            </div> <!-- end #content -->
+        </div> <!-- end #content -->
+    </div>
+</div>
+
+<div class="container">
+    <section id="why">
+        <h2 class="page-header"><i class="icon-ocha-sector-coordination"></i>  Why ActivityInfo?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4><i class="icon-fullscreen"></i> Track</h4>
+                Tracks sectoral activites all over Jordan in a standards applicable system that will ensure inter-operable approaches to data.
             </div>
-
+            <div class="col-md-4">
+                <h4><i class="icon-event-handshake"></i> Coordinate</h4>
+                Records activities per location in order to reduce duplication of efforts.
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-event-lecturer"></i> Identify gaps</h4>
+                Displays which locations are not receiving adequate coverage for certain activities type.
+            </div>
         </div>
-
-    <div class="container">
-    <section id="why" class="clearfix">
-      <h2 class="page-header"><i class="icon-ocha-sector-coordination"></i>  Why ActivityInfo?</h2>
-      <div class="row">
-        <div class="span4">
-          <h4><i class="icon-fullscreen"></i> Track</h4>
-          Tracks sectoral activites all over Jordan in a standards applicable system that will ensure inter-operable approaches to data.
+        <div class="row">
+            <div class="col-md-4">
+                <h4><i class="icon-dashboard"></i>  Monitor</h4>
+                Allows for alsmost real time monitoring of performance and impact indicators within the Refugee Response Plan targets.
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-cogs"></i> Analyse</h4>
+                Produces automatically maps, data analysis and reports.
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-event-collaborate"></i> Share</h4>
+                Facilitates access to any organizations that contributes to the Syrian Refugee Response. Validated infromation will be then published publicly in the portal.
+            </div>
         </div>
-        <div class="span4">
-          <h4><i class="icon-event-handshake"></i> Coordinate</h4>
-          Records activities per location in order to reduce duplication of efforts.
-        </div>
-        <div class="span4">
-          <h4><i class="icon-event-lecturer"></i> Identify gaps</h4>
-          Displays which locations are not receiving adequate coverage for certain activities type.
-        </div>
-      </div>
-      <div class="row">
-        <div class="span4">
-          <h4><i class="icon-dashboard"></i>  Monitor</h4>
-          Allows for alsmost real time monitoring of performance and impact indicators within the Refugee Response Plan targets.
-        </div>
-        <div class="span4">
-          <h4><i class="icon-cogs"></i> Analyse</h4>
-          Produces automatically maps, data analysis and reports.
-        </div>
-        <div class="span4">
-          <h4><i class="icon-event-collaborate"></i> Share</h4>
-          Facilitates access to any organizations that contributes to the Syrian Refugee Response. Validated infromation will be then published publicly in the portal.
-        </div>
-      </div>
-      <p></p>
-      <p></p>
     </section>
 
-
-
     <section id="what">
-      <h2 class="page-header"><i class="icon-edit"></i> What is captured?</h2>
-      
-       <div class="row">
-        <div class="span6">
-          <h4><i class="icon-map-marker"></i>   Activities per location</h4>
-          Location and types of <b>activities</b>, described according to an agreed taxonomy.
+        <h2 class="page-header"><i class="icon-edit"></i> What is captured?</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i class="icon-map-marker"></i>   Activities per location</h4>
+                Location and types of <b>activities</b>, described according to an agreed taxonomy.
+            </div>
+            <div class="col-md-6">
+                <h4><i class="icon-individual"></i>   Beneficiaries</h4>
+                Type of <b>groups</b> assisted (Syrian Refugees, Vulnerable Jordanian and other Persons of Concerns).
+            </div>
         </div>
-        <div class="span6">
-          <h4><i class="icon-individual"></i>   Beneficiaries</h4>
-          Type of <b>groups</b> assisted (Syrian Refugees, Vulnerable Jordanian and other Persons of Concerns).
+        <div class="row">
+            <div class="col-md-6">
+                <h4><i class="icon-pushpin"></i>   Indicators</h4>
+                <b>Indicator</b> values and metrics, Key Response Figures.
+            </div>
+            <div class="col-md-6">
+                <h4><i class="icon-money"></i>  Funding Type</h4>
+                Type of <b>Funding</b>: i.e. is the activities done under the Refugee Response Plan or not?
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="span6">
-          <h4><i class="icon-pushpin"></i>   Indicators</h4>
-          <b>Indicator</b> values and metrics, Key Response Figures.
-        </div>
-        <div class="span6">
-          <h4><i class="icon-money"></i>  Funding Type</h4>
-          Type of <b>Funding</b>: i.e. is the activities done under the Refugee Response Plan or not?
-        </div>
-      </div>
-      <p></p>
     </section>
 
     <section id="who">
-      <h2 class="page-header"><i class="icon-group"></i>  Who can access ActivityInfo?</h2>
+        <h2 class="page-header"><i class="icon-group"></i>  Who can access ActivityInfo?</h2>
         <p>ActivityInfo is accessible to all partners participating to the Syrian Refugee Response. Access to ActivityInfo is granted by the sector lead. Activities validated in the working group will be then displayed on the Information Sharing Portal. Please consul the Working group page of the portal</p>
 
-		<div class="row">
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-wash"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=18" target="_blank">  Wash </h4></a>
-		</div>
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-health"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=15" target="_blank">  Health </h4></a>
-		</div>
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-health"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=40" target="_blank">  Mental Health </h4></a>
-		</div>
-	  </div>
-	  <div class="row">
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-livelihood"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=8" target="_blank">  Cash Assistance</h4></a>
-		</div>
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-livelihood"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=9" target="_blank">  Non Food Items</h4></a>
-		</div>
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-education"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=14" target="_blank">  Education</h4></a>
-		</div>
-	  </div>
-	  <div class="row">
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-agriculture"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=13" target="_blank">  Food </h4></a>
-		</div>
-		<div class="span4">
-			<h4><i class="icon-ocha-sector-foodsecurity"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=13" target="_blank">  Nutrition </h4></a>
-		</div>
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-campmanagement"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=10" target="_blank">  Shelter </h4></a>
-		</div>
-	  </div>
-	  <div class="row">
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-protection"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=11" target="_blank">  Protection </h4></a>
-		</div>
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-protection"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=35" target="_blank">  Sexual & Gender Based Violence </h4></a>
-		</div>
-		<div class="span4"> 
-			<h4><i class="icon-ocha-sector-protection"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=27" target="_blank">  Child Protection</h4></a>
-		</div>
-	  </div>
-      <p></p>
+        <div class="row">
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-wash"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=18" target="_blank">  Wash </h4></a>
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-health"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=15" target="_blank">  Health </h4></a>
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-health"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=40" target="_blank">  Mental Health </h4></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-livelihood"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=8" target="_blank">  Cash Assistance</h4></a>
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-livelihood"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=9" target="_blank">  Non Food Items</h4></a>
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-education"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=14" target="_blank">  Education</h4></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-agriculture"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=13" target="_blank">  Food </h4></a>
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-foodsecurity"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=13" target="_blank">  Nutrition </h4></a>
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-campmanagement"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=10" target="_blank">  Shelter </h4></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-protection"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=11" target="_blank">  Protection </h4></a>
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-protection"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=35" target="_blank">  Sexual & Gender Based Violence </h4></a>
+            </div>
+            <div class="col-md-4">
+                <h4><i class="icon-ocha-sector-protection"></i><a href="http://data.unhcr.org/syrianrefugees/working_group.php?Country=107&Id=27" target="_blank">  Child Protection</h4></a>
+            </div>
+        </div>
     </section>
 
-    </div>
+</div>
+
+<script type="text/javascript">
+    var enableForm = function(enabled) {
+        $('#loginButton').prop('disabled', !enabled);
+        $('#loginSpinner').toggleClass('hide', enabled);
+    }
+
+    $('#loginForm').submit(function() {
+
+        $('#loginAlert').addClass('hide');
+
+        enableForm(false);
+        $.ajax({
+            url: '/login/ajax',
+            type: 'POST',
+            data: {
+                email: $('#emailInput').val(),
+                password: $('#passwordInput').val(),
+                ajax: 'true'
+            },
+            success: function() {
+                if(window.location.pathname != '/') {
+                    window.location = '/' + window.location.search + window.location.hash;
+                } else {
+                    window.location.reload(true);
+                }
+            },
+            error: function(xhr) {
+                $('#loginAlert').toggleClass('hide', false);
+            },
+            complete: function() {
+                enableForm(true);
+            }
+        });
+        return false;
+    });
+
+    $('#emailInput').focus();
+</script>

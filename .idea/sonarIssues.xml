@@ -3,12 +3,42 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Gruntfile.js">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/HomePageBody.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Scaffolding.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cors.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cors.xml">
           <value>
             <set />
           </value>
@@ -19,6 +49,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/css/site.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/domain.properties">
           <value>
             <set />
           </value>
@@ -79,6 +114,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/packages.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../activityinfo/server/src/main/java/org/activityinfo/server/login/ConfirmInviteController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../activityinfo/server/src/main/resources/template/page/DefaultScaffolding.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../activityinfo/server/src/main/resources/template/page/InvalidInvite.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../activityinfo/server/src/main/resources/template/page/Login.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../activityinfo/server/src/main/resources/template/page/ResetPassword.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../activityinfo/server/src/main/resources/template/page/Root.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../activityinfo/server/src/main/resources/template/page/SignUpConfirmation.ftl">
           <value>
             <set />
           </value>
