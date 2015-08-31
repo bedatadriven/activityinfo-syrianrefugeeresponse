@@ -19,14 +19,14 @@ module.exports = function(grunt) {
                 stderr: true
             },
             deployAssets: {
-                command: [ 'gsutil -m cp -R -z css,svg -a public-read css font img gs://activityinfo-syrianrefugeeresponse',
-                           'gsutil cors set cors.json gs://activityinfo-syrianrefugeeresponse'].join(";")
+                command: [ 'gsutil -m cp -R -z css,svg -a public-read css font img gs://ai-custom-domains/washinfo/',
+                           'gsutil cors set cors.json gs://ai-custom-domains'].join(";")
             },
             stageTheme: {
-                command: 'gsutil cp domain.properties Scaffolding.ftl HomePageBody.html gs://ai-staging.appspot.com/domains/syr5-dot-qa-dot-ai-staging.appspot.com/'
+                command: 'gsutil cp domain.properties Scaffolding.ftl HomePageBody.html gs://ai-staging.appspot.com/domains/wash3-dot-qa-dot-ai-staging.appspot.com/'
             },
             deployTheme: {
-                command: 'gsutil cp domain.properties Scaffolding.ftl HomePageBody.html gs://activityinfoeu.appspot.com/domains/www.syrianrefugeeresponse.org/'
+                command: 'gsutil cp domain.properties Scaffolding.ftl HomePageBody.html gs://activityinfoeu.appspot.com/domains/www.washinfo.org/'
             }
         }
     });
