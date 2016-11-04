@@ -17,13 +17,13 @@
   <![endif]-->
 
 
-  <link rel="stylesheet" href="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/css/site.css">
-  <link rel="stylesheet" href="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/css/prettify.css">
-  <link href="http://www.unhcr.org/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="//ai-custom-domains.storage.googleapis.com/syria/css/site.css">
+  <link rel="stylesheet" href="//ai-custom-domains.storage.googleapis.com/syria/css/prettify.css">
+  <link href="//ai-custom-domains.storage.googleapis.com/syria/favicon.ico" rel="icon" type="image/x-icon">
   
-  <link rel="stylesheet" href="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/css/font-humanitarian.css">
+  <link rel="stylesheet" href="//ai-custom-domains.storage.googleapis.com/syria/css/font-humanitarian.css">
   <!--[if IE 7]>
-  <link rel="stylesheet" href="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/css/font-humanitarian-ie7.min.css">
+  <link rel="stylesheet" href="//ai-custom-domains.storage.googleapis.com/syria/css/font-humanitarian-ie7.min.css">
   <![endif]-->
   <!-- Le fav and touch icons -->
 </head>
@@ -60,21 +60,14 @@
           <div class="span4">
           <div class="span8">
             <h2>Credits</h2>
-            <p>For more information, please contact UNHCR Jordan Information Management Unit <br>  <i> joramimf--at--unhcr.org </i> <a href='http://www.unhcr.org'><img src='//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/img/HCRLogo.png' /></a></p>
-            <p><a class="brand" href="http://about.activityinfo.org" style="" target="_blank"><img src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/img/logo-shadow.png"><span> About ActivityInfo</span></a></p>
+            <p>For more information, please contact UNHCR Jordan Information Management Unit <br>  <i> joramimf--at--unhcr.org </i> <a href='http://www.unhcr.org'><img src='//ai-custom-domains.storage.googleapis.com/syria/img/HCRLogo.png' /></a></p>
+            <p><a class="brand" href="http://about.activityinfo.org" style="" target="_blank"><img src="//ai-custom-domains.storage.googleapis.com/syria/img/logo-shadow.png"><span> About ActivityInfo</span></a></p>
              <p>ActivityInfo is developed by <a href="http://www.bedatadriven.com" target="_blank">BeDataDriven</a> and <a href="http://www.unicef.org/">UNICEF</a>.</p>
             </p>
           </div>
         </div>
       </div>
     </footer>
-
-<script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/jquery-1.7.1.min.js"></script>
-<script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/underscore.min.js"></script>
-<script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/backbone.min.js"></script>
-<script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/prettify.min.js"></script>
-<script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/bootstrap-222.min.js"></script>
-<script src="//commondatastorage.googleapis.com/activityinfo-syrianrefugeeresponse/js/index/index.js"></script>
 
 <script type="text/javascript">		
 	var enableForm = function(enabled) {
@@ -125,7 +118,7 @@
     piwikTracker.trackPageView();
     piwikTracker.enableLinkTracking();
     } catch( err ) {}
-    </script><noscript><p><img src="http://data.unhcr.org/piwik/piwik.php?idsite=15" style="border:0" alt="" /></p></noscript>
+    </script><noscript><p><img src="https://data.unhcr.org/piwik/piwik.php?idsite=15" style="border:0" alt="" /></p></noscript>
 <!-- End Piwik Tracking Code -->
 
 
