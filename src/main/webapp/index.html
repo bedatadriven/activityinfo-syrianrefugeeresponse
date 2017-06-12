@@ -1,4 +1,57 @@
 
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  <meta charset="utf-8" />
+  <title>Syrian Refugee Response - Powered by ActivityInfo</title>
+  <meta name="description" content="Syrian Refugee Response - Powered by ActivityInfo">
+  <meta name="author" content="legoupil@unhcr.org">
+  <!--<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/prettify.css">
+  <link href="/favicon.ico" rel="icon" type="image/x-icon">
+  
+  <link rel="stylesheet" href="/css/font-humanitarian.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/css/font-humanitarian-ie7.min.css">
+  <![endif]-->
+  <!-- Le fav and touch icons -->
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" style="margin-top:60px">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">ActivityInfo</a>
+          <ul class="nav">
+            <li><a href="/#why">Why?</a></li>
+            <li><a href="/#what">What?</a></li>
+            <li><a href="/#who">Who?</a></li>
+            <li><a href="http://help.activityinfo.org">How?</a></li>
+
+          </ul>
+          <ul class="nav pull-right">
+          <li><a href="http://data.unhcr.org/syrianrefugees/country.php?id=107" target="_blank"></i>Syrian Refugee Response Portal for Jordan</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+   
+
     <div class="jumbotron" style="position: relative; top: -60px">
 
 
@@ -14,7 +67,7 @@
                   <p class="lead">A web-based platform for better centralisation, mapping & analysis of Humanitarian Activities in Jordan</p>
                 </div>
                 <div class="span4">
-                    <form class="form-signin" id="loginForm" action="/login" method="POST">
+                    <form class="form-signin" id="loginForm" action="https://www.activityinfo.org/login" method="POST">
                         <h3 class="form-signin-heading">Login</h3>
                         <input type="text" name="email" id="emailInput" class="input-block-level" placeholder="E-mail">
                         <input type="password" name="password" id="passwordInput" class="input-block-level" placeholder="Password">
@@ -22,8 +75,8 @@
                             Your details are not correct. Thanks to check your email and password
                         </div>
                         <button class="btn btn-info btn-primary btn-large" type="submit" id="loginButton">Login</button>
-                        <img src="//ai-custom-domains.storage.googleapis.com/syria/img/ajax-loader-spinner.gif" width="16" height="16" class="hide" id="loginSpinner">
-                        <div class="login-problem"><a href="loginProblem">Forgot your password?</a></div>
+                        <img src="/img/ajax-loader-spinner.gif" width="16" height="16" class="hide" id="loginSpinner">
+                        <div class="login-problem"><a href="https://www.activityinfo.org/loginProblem">Forgot your password?</a></div>
                     </form>
                 </div>
               </div>
@@ -149,3 +202,24 @@
     </section>
 
     </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+          <div class="span8">
+            <h2>Credits</h2>
+            <p>For more information, please contact UNHCR Jordan Information Management Unit <br>  <i> joramimf--at--unhcr.org </i> <a href='http://www.unhcr.org'><img src='/img/HCRLogo.png' /></a></p>
+            <p><a class="brand" href="https://about.activityinfo.org" style="" target="_blank"><img src="/img/logo-shadow.png"><span> About ActivityInfo</span></a></p>
+             <p>ActivityInfo is developed by <a href="http://www.bedatadriven.com" target="_blank">BeDataDriven</a> and <a href="http://www.unicef.org/">UNICEF</a>.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+</body>
+</html>
+
